@@ -26,7 +26,7 @@ Content of this repo is a guideline on HOW to use **null** provider and **count*
 - Type in your terminal `terraform apply` execute changes bases on our code(main.tf)
 
 ## Expected results
-The terraform code will create three resources `georgiman0`, `georgiman1` and `georgiman2`  
+The terraform code will create three resources `georgiman1`, `georgiman2` and `georgiman3`  
 
 Example: 
 ```
@@ -46,4 +46,4 @@ null_resource.georgiman.2:
 
 ```
 ## Remove all created with Terraform
-- Type in your terminal `terraform destroy` in order to delete all created null resources **georgiman0, georgiman1 and georgiman2**
+- Type in your terminal `terraform destroy` in order to delete all created null resources **georgiman1, georgiman2 and georgiman3**
