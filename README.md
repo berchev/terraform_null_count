@@ -30,19 +30,19 @@ The terraform code will create three resources `georgiman0`, `georgiman1` and `g
 
 Example: 
 ```
-gberchev@BerchevPC terraform_null_count (setup) $ terraform show
+gberchev@BerchevPC terraform_null_count (index_start_from_1) $ terraform show
 null_resource.georgiman.0:
-  id = 2772020786270145117
-  triggers.% = 1
-  triggers.build_number = georgiman0
-null_resource.georgiman.1:
-  id = 6298793447518640918
+  id = 741246176885246247
   triggers.% = 1
   triggers.build_number = georgiman1
-null_resource.georgiman.2:
-  id = 3214518889185556538
+null_resource.georgiman.1:
+  id = 7171658210858853968
   triggers.% = 1
   triggers.build_number = georgiman2
+null_resource.georgiman.2:
+  id = 3740730714709065017
+  triggers.% = 1
+  triggers.build_number = georgiman3
 
 ```
 ## Remove all created with Terraform
